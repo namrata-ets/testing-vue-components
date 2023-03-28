@@ -1,10 +1,11 @@
 {
   "name": "vue-school-test-utils-base",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/codebryo/vue-school-test-utils-base.git",
   "author": "Roman Kuba <roman.kuba@gmail.com>",
-  "license": "MIT",
+  "scripts": {
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
@@ -14,5 +15,14 @@
     "jest-serializer-vue": "^2.0.2",
     "vue": "^2.6.9",
     "vuex": "^3.1.1"
-  }
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/test-utils": "^1.3.4",
+    "@vue/vue2-jest": "^27.0.0-alpha.2",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.5"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/codebryo/vue-school-test-utils-base.git"
 }
